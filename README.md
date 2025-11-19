@@ -9,7 +9,7 @@ conda activate pytorch
 pip install visdom
 
 #地址一般在
-ANACONDA3\envs\pytorch\Lib\site-packages\visdom\server\run_server.py
+Anaconda3\envs\pytorch\Lib\site-packages\visdom\server\run_server.py
 
 #打开此py文件后 ctrl+F查找def def download_scripts_and_run():
 注释掉#download_scripts()
