@@ -11,7 +11,7 @@ pip install visdom
 #地址一般在
 Anaconda3\envs\pytorch\Lib\site-packages\visdom\server\run_server.py
 
-#打开此py文件后 ctrl+F查找def def download_scripts_and_run():
+#打开此py文件后 ctrl+F输入def download_scripts_and_run():
 注释掉#download_scripts()
 
 再将visdom\static删除将新的static文件复制进去
