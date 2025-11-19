@@ -17,7 +17,7 @@ Anaconda3\envs\pytorch\Lib\site-packages\visdom\server\run_server.py
 再将visdom\static删除将新的static文件复制进去
 
 #再激活启动visdom
-在pytorch环境输入 python -m visdom.server,会出现http://localhost:8097
+在pytorch环境下的终端输入 python -m visdom.server,会出现http://localhost:8097
 然后点击即可看见visdom界面
 
 #一般使用visdom都是先启动visdom 再调试代码，返回即可看见可视化界面
